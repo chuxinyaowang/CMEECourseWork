@@ -1,0 +1,77 @@
+
+#Chuxinyao Wang
+#FASTA Exercise
+    #Load FASTA files from github
+cd ~/Documents/CMEECourseWork/week1/data # locate to data directory
+        
+        #use url link
+
+wget https://raw.githubusercontent.com/mhasoba/TheMulQuaBio/master/content/data/fasta/407228326.fasta
+wget https://raw.githubusercontent.com/mhasoba/TheMulQuaBio/master/content/data/fasta/407228412.fasta
+wget https://raw.githubusercontent.com/mhasoba/TheMulQuaBio/master/content/data/fasta/E.coli.fasta
+
+
+
+
+    #Q1 count line for each file
+
+wc -l 407228326.fasta && wc -l 407228412.fasta && wc -l E.coli.fasta
+# or type for each file like this:  #wc -l 407228326.fasta
+                                    #wc -l 407228412.fasta
+                                    #wc -l E.coli.fasta
+
+
+
+    #Q2 Print from second for E.coli files
+tail -n +2 E.coli.fasta
+        #from last question, I can get there are 78304 lines for this file, so to show the file from 2nd line to no.78104 line.
+
+
+
+
+    #Q3 Count the length of this genome
+        #First line doesn't belong to the sequence, so remove it in excution rather than edit directly in file by using:
+
+tail -n +2 E.coli.fasta | tr -d '\n' | wc -m #Remove 1st line, then count the length
+
+
+
+
+
+    #Q4 Count amount of "ATCG"s, by using 'grep' to match the needed strings, then count ('-c')
+
+grep -c 'ATGC' E.coli.fasta
+
+
+    #Q5 Calculate ratio of A+T/C+G
+        #First use grep to pick each A,T,C,G grep nucleotide then count them;
+        #Second, count amount of each A,T,C,G then name them as variables by using "Num_A,T,C,G" in order to make calculation easier.
+        #These are for counting amount
+            #grep -o 'A' E.coli.fasta | wc -l 
+            #grep -o 'T' E.coli.fasta | wc -l
+            #grep -o 'C' E.coli.fasta | wc -l
+            #grep -o 'G' E.coli.fasta | wc -l
+        #Make them as variables
+Num_A=`grep -o 'A' E.coli.fasta | wc -l`
+
+Num_T=`grep -o 'T' E.coli.fasta | wc -l`
+
+Num_C=`grep -o 'C' E.coli.fasta | wc -l`
+
+Num_G=`grep -o 'G' E.coli.fasta | wc -l`
+
+        #Consider there are potential 'Y' and 'R' excist
+Num_Y=`grep -o 'Y' E.coli.fasta | wc -l`
+Num_R=`grep -o 'R' E.coli.fasta | wc -l`
+
+echo 'The number of A is ' $Num_A ', T is ' $Num_T ', C is ' $Num_C ' and C is ' $Num_G ''
+
+Num_AT=$(expr $Num_A + $Num_T) #Sum up the number of A+T and C+G
+Num_CG=$(expr $Num_C + $Num_G)
+echo 'The sum of A+T is ' $Num_AT ' and the sum of C+G is ' $Num_CG ''
+# Ratio=`awk "{print$Num_AT/$Num_CG}"` 
+#as expr / can't calculate to result as a float, to get a exact number of ratio,here I use awk "{print $A/$B}".
+
+#and result is :
+echo 'The ratio of A+T/C+G is :' && echo | awk "{print $Num_AT/$Num_CG}"
+
