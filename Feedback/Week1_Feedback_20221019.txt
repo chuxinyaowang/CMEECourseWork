@@ -1,0 +1,647 @@
+Starting code feedback for Chuxinyao, Week1
+
+Current Points = 100
+
+Note that: 
+(1) Major sections begin with a double "====" line 
+(2) Subsections begin with a single "====" line 
+(3) Code output or text file content are printed within single "*****" lines 
+
+======================================================================
+======================================================================
+Your Git repo size this week is about 2.48 MiB on disk 
+
+PART 1: Checking project workflow...
+
+Found the following directories in parent directory: .git, week1, Feedback
+
+Found the following files in parent directory: .gitignore, README.md
+
+Checking for key files in parent directory...
+
+Found .gitignore in parent directory, great! 
+
+Printing contents of .gitignore:
+
+**********************************************************************
+*~ 
+*.tmp
+*.gitkeep
+
+**********************************************************************
+
+Found README in parent directory, named: README.md
+
+Printing contents of README.md:
+
+**********************************************************************
+My CMEE Coursework Repository
+
+**********************************************************************
+
+======================================================================
+Looking for the weekly directories...
+
+Found 1 weekly directories: week1
+
+The Week1 directory will be assessed 
+
+======================================================================
+======================================================================
+PART 2: Checking weekly code and workflow...
+
+======================================================================
+Assessing WEEK1...
+
+Found the following directories: code, sandbox, data, results
+
+Found the following files: 
+
+Checking for readme file in weekly directory...
+
+README file missing, 1 pt deducted
+
+Current Points = 99
+
+Results directory is empty - good! 
+
+Found 13 code files: ConcatenateTwoFiles.sh, CountLines.sh, FirstExample.tex, tabscript.sh, CompileLaTex.sh, variables.sh, boilerplate.sh, tiff2png.sh, MyExampleScript.sh, tabtocsv.sh, csvtospace.sh, UnixPrac1.txt, FirstBiblio.bib
+
+Found the following extra files: FirstExample.pdf
+0.5 pt deducted per extra file
+
+Current Points = 98.5
+
+======================================================================
+Testing script/code files...
+
+======================================================================
+Inspecting script file ConcatenateTwoFiles.sh...
+
+File contents are:
+
+**********************************************************************
+#!/bin/bash
+
+cat $1 > $3
+cat $2 >> $3
+echo "Merged File is"
+cat $3
+**********************************************************************
+
+Testing ConcatenateTwoFiles.sh...
+
+Output (only first 500 characters): 
+
+
+**********************************************************************
+Merged File is
+
+**********************************************************************
+
+Encountered error (or warning):
+ConcatenateTwoFiles.sh: line 3: $3: ambiguous redirect
+ConcatenateTwoFiles.sh: line 4: $3: ambiguous redirect
+
+======================================================================
+Inspecting script file CountLines.sh...
+
+File contents are:
+
+**********************************************************************
+#!/bin/bash
+
+NumLines=`wc -l < $0`
+echo "The file $0 has $NumLines lines"
+echo
+**********************************************************************
+
+Testing CountLines.sh...
+
+Output (only first 500 characters): 
+
+
+**********************************************************************
+The file CountLines.sh has 4 lines
+
+
+**********************************************************************
+
+Code ran without errors
+
+Time consumed = 0.01021s
+
+======================================================================
+Inspecting script file FirstExample.tex...
+
+File contents are:
+
+**********************************************************************
+\documentclass[12pt]{article}
+
+\title{A Simple Document}
+
+\author{Your Name}
+
+\date{}
+
+\begin{document}
+  \maketitle
+  
+  \begin{abstract}
+    This paper analyzes a seminal equation in population biology.
+  \end{abstract}
+  
+  \section{Introduction}
+    Blah Blah
+  
+  \section{Materials \& Methods}
+  
+  A foundational equation of population biology is:
+  
+  \begin{equation}
+    \frac{dN}{dt} = r N (1 - \frac{N}{K})
+  \end{equation}
+  
+  It was first proposed by Verhulst in 1838 \cite{verhulst1838notice}.
+  
+  \bibliographystyle{plain}
+  
+  \bibliography{FirstBiblio}
+
+\end{document}
+**********************************************************************
+
+Testing FirstExample.tex...
+
+======================================================================
+Inspecting script file tabscript.sh...
+
+File contents are:
+
+**********************************************************************
+#!/bin/sh
+# Author: Your name you.login@imperial.ac.uk
+# Script: tabtocsv.sh
+# Description: substitute the tabs in the files with commas
+#
+# Saves the output into a .csv file
+# Arguments: 1 -> tab delimited file
+# Date: Oct 2019
+
+echo "Creating a comma delimited version of $1 ..."
+cat $1 | tr -s "\t" "," >> $1.csv
+echo "Done!"
+exit
+**********************************************************************
+
+Testing tabscript.sh...
+
+Output (only first 500 characters): 
+
+
+**********************************************************************
+Creating a comma delimited version of  ...
+Done!
+
+**********************************************************************
+
+Code ran without errors
+
+Time consumed = 0.00921s
+
+======================================================================
+Inspecting script file CompileLaTex.sh...
+
+File contents are:
+
+**********************************************************************
+#!/bin/bash
+pdflatex $1.tex
+bibtex $1
+pdflatex $1.tex
+pdflatex $1.tex
+evince $1.pdf &
+
+## Cleanup
+rm *.aux
+rm *.log
+rm *.bbl
+rm *.blg
+**********************************************************************
+
+Testing CompileLaTex.sh...
+
+Output (only first 500 characters): 
+
+
+**********************************************************************
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/usr/share/texlive/texmf-dist/tex/latex/tools/.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21> File ignored)
+*
+! Emergency stop.
+<*> .tex
+        
+!  ==> Fatal error occurred, no output PDF file produced!
+Transcript written on .log.
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded 
+**********************************************************************
+
+Encountered error (or warning):
+bibtex: Need exactly one file argument.
+Try `bibtex --help' for more information.
+rm: cannot remove '*.aux': No such file or directory
+rm: cannot remove '*.log': No such file or directory
+rm: cannot remove '*.bbl': No such file or directory
+rm: cannot remove '*.blg': No such file or directory
+
+** (evince:22293): WARNING **: 22:21:58.320: Error when getting information for file “/home/mhasoba/Documents/Teaching/IC_CMEE/2022-23/Coursework/StudentRepos/ChuxinyaoWang_/week1/code/.pdf”: No such file or directory
+
+** (evince:22293): WARNING **: 22:21:58.321: set_filenames: Error when getting information for file “/home/mhasoba/Documents/Teaching/IC_CMEE/2022-23/Coursework/StudentRepos/ChuxinyaoWang_/week1/code/.pdf”: No such file or directory
+
+** (evince:22293): WARNING **: 22:21:58.365: Error setting file metadata: No such file or directory
+
+** (evince:22293): WARNING **: 22:21:58.365: Error setting file metadata: No such file or directory
+
+** (evince:22293): WARNING **: 22:21:58.365: Error setting file metadata: No such file or directory
+
+** (evince:22293): WARNING **: 22:21:58.366: Error setting file metadata: No such file or directory
+
+** (evince:22293): WARNING **: 22:21:58.366: Error setting file metadata: No such file or directory
+
+** (evince:22293): WARNING **: 22:21:58.366: Error setting file metadata: No such file or directory
+
+** (evince:22293): WARNING **: 22:21:58.366: Error setting file metadata: No such file or directory
+
+** (evince:22293): WARNING **: 22:21:58.366: Error setting file metadata: No such file or directory
+
+** (evince:22293): WARNING **: 22:21:58.366: Error setting file metadata: No such file or directory
+
+** (evince:22293): WARNING **: 22:21:58.366: Error setting file metadata: No such file or directory
+
+** (evince:22293): WARNING **: 22:21:58.366: Error setting file metadata: No such file or directory
+
+** (evince:22293): WARNING **: 22:21:58.366: Error setting file metadata: No such file or directory
+
+** (evince:22293): WARNING **: 22:21:58.377: Error setting file metadata: No such file or directory
+
+** (evince:22293): WARNING **: 22:21:58.377: Error setting file metadata: No such file or directory
+
+======================================================================
+Inspecting script file variables.sh...
+
+File contents are:
+
+**********************************************************************
+#!/bin/sh
+
+## Illustrates the use of variables 
+
+# Special variables
+
+echo "This script was called with $# parameters"
+echo "The script's name is $0"
+echo "The arguments are $@"
+echo "The first argument is $1"
+echo "The second argument is $2"
+
+# Assigned Variables; Explicit declaration:
+MY_VAR='some string' 
+echo 'the current value of the variable is:' $MY_VAR
+echo
+echo 'Please enter a new string'
+read MY_VAR
+echo
+echo 'the current value of the variable is:' $MY_VAR
+echo
+
+## Assigned Variables; Reading (multiple values) from user input:
+echo 'Enter two numbers separated by space(s)'
+read a b
+echo
+echo 'you entered' $a 'and' $b '; Their sum is:'
+
+## Assigned Variables; Command substitution
+MY_SUM=$(expr $a + $b)
+echo $MY_SUM
+**********************************************************************
+
+Testing variables.sh...
+
+Output (only first 500 characters): 
+
+
+**********************************************************************
+This script was called with 0 parameters
+The script's name is variables.sh
+The arguments are 
+The first argument is 
+The second argument is 
+the current value of the variable is: some string
+
+Please enter a new string
+
+the current value of the variable is:
+
+Enter two numbers separated by space(s)
+
+you entered and ; Their sum is:
+
+
+**********************************************************************
+
+Encountered error (or warning):
+expr: syntax error: missing argument after ‘+’
+
+======================================================================
+Inspecting script file boilerplate.sh...
+
+File contents are:
+
+**********************************************************************
+#!/bin/sh
+#Author: Chuxinyao_Wang_cw422@ic.ac.uk
+#Script: boilerplate.sh
+#Desc: simple boilerplate for shell scripts
+#Arguments: none
+#Date: Oct 2022
+echo -e "\nThis is a shell script! \n"
+
+#exit
+**********************************************************************
+
+Testing boilerplate.sh...
+
+Output (only first 500 characters): 
+
+
+**********************************************************************
+
+This is a shell script! 
+
+
+**********************************************************************
+
+Code ran without errors
+
+Time consumed = 0.00747s
+
+======================================================================
+Inspecting script file tiff2png.sh...
+
+File contents are:
+
+**********************************************************************
+#!/bin/bash
+
+for f in *.tif; 
+    do  
+        echo "Converting $f"; 
+        convert "$f"  "$(basename "$f" .tif).png"; 
+    done
+**********************************************************************
+
+Testing tiff2png.sh...
+
+Output (only first 500 characters): 
+
+
+**********************************************************************
+Converting *.tif
+
+**********************************************************************
+
+Encountered error (or warning):
+convert-im6.q16: unable to open image `*.tif': No such file or directory @ error/blob.c/OpenBlob/2924.
+convert-im6.q16: no images defined `*.png' @ error/convert.c/ConvertImageCommand/3229.
+
+======================================================================
+Inspecting script file MyExampleScript.sh...
+
+File contents are:
+
+**********************************************************************
+#!/bin/sh
+
+MSG1="Hello"
+MSG2=$USER
+echo "$MSG1 $MSG2"
+echo "Hello $USER"
+echo
+**********************************************************************
+
+Testing MyExampleScript.sh...
+
+Output (only first 500 characters): 
+
+
+**********************************************************************
+Hello mhasoba
+Hello mhasoba
+
+
+**********************************************************************
+
+Code ran without errors
+
+Time consumed = 0.00471s
+
+======================================================================
+Inspecting script file tabtocsv.sh...
+
+File contents are:
+
+**********************************************************************
+#!/bin/sh
+# Author: Your name you.login@imperial.ac.uk
+# Script: tabtocsv.sh
+# Description: substitute the tabs in the files with commas
+#
+# Saves the output into a .csv file
+# Arguments: 1 -> tab delimited file
+# Date: Oct 2019
+
+echo "Creating a comma delimited version of $1 ..."
+cat $1 | tr -s "\t" "," >> $1.csv
+echo "Done!"
+exit
+**********************************************************************
+
+Testing tabtocsv.sh...
+
+Output (only first 500 characters): 
+
+
+**********************************************************************
+Creating a comma delimited version of  ...
+Done!
+
+**********************************************************************
+
+Code ran without errors
+
+Time consumed = 0.00852s
+
+======================================================================
+Inspecting script file csvtospace.sh...
+
+File contents are:
+
+**********************************************************************
+#Firstly, create a csv file with 'code "echo -e "test, test"" >> ../sandbox/practest.csv'
+echo "creating sapce based separeted version of $1"
+cat $1 | tr -s "," " " >> $1.txt
+echo "Done!"
+exit
+
+#Then run 
+bash csvtospace.sh ../sandbox/practest.csv
+
+
+
+#For csv files in Temperature directory, they need to be downloaded first:
+
+
+cd ../sandbox
+wget https://raw.githubusercontent.com/mhasoba/TheMulQuaBio/master/content/data/Temperatures/1800.csv (1801,1802,1803 etc.)
+
+#Back to code directory:
+cd ../code
+bash csvtospace.sh ../sandbox/1800.csv (same to other 3 files)
+bash csvtospace.sh ../sandbox/1801.csv
+bash csvtospace.sh ../sandbox/1802.csv
+bash csvtospace.sh ../sandbox/1803.csv
+**********************************************************************
+
+Testing csvtospace.sh...
+
+Output (only first 500 characters): 
+
+
+**********************************************************************
+creating sapce based separeted version of 
+Done!
+
+**********************************************************************
+
+Code ran without errors
+
+Time consumed = 0.00923s
+
+======================================================================
+Inspecting script file UnixPrac1.txt...
+
+File contents are:
+
+**********************************************************************
+
+#Chuxinyao Wang
+#FASTA Exercise
+    #Load FASTA files from github
+cd ~/Documents/CMEECourseWork/week1/data # locate to data directory
+        
+        #use url link
+
+wget https://raw.githubusercontent.com/mhasoba/TheMulQuaBio/master/content/data/fasta/407228326.fasta
+wget https://raw.githubusercontent.com/mhasoba/TheMulQuaBio/master/content/data/fasta/407228412.fasta
+wget https://raw.githubusercontent.com/mhasoba/TheMulQuaBio/master/content/data/fasta/E.coli.fasta
+
+
+
+
+    #Q1 count line for each file
+
+wc -l 407228326.fasta && wc -l 407228412.fasta && wc -l E.coli.fasta
+# or type for each file like this:  #wc -l 407228326.fasta
+                                    #wc -l 407228412.fasta
+                                    #wc -l E.coli.fasta
+
+
+
+    #Q2 Print from second for E.coli files
+tail -n +2 E.coli.fasta
+        #from last question, I can get there are 78304 lines for this file, so to show the file from 2nd line to no.78104 line.
+
+
+
+
+    #Q3 Count the length of this genome
+        #First line doesn't belong to the sequence, so remove it in excution rather than edit directly in file by using:
+
+tail -n +2 E.coli.fasta | tr -d '\n' | wc -m #Remove 1st line, then count the length
+
+
+
+
+
+    #Q4 Count amount of "ATCG"s, by using 'grep' to match the needed strings, then count ('-c')
+
+grep -c 'ATGC' E.coli.fasta
+
+
+    #Q5 Calculate ratio of A+T/C+G
+        #First use grep to pick each A,T,C,G grep nucleotide then count them;
+        #Second, count amount of each A,T,C,G then name them as variables by using "Num_A,T,C,G" in order to make calculation easier.
+        #These are for counting amount
+            #grep -o 'A' E.coli.fasta | wc -l 
+            #grep -o 'T' E.coli.fasta | wc -l
+            #grep -o 'C' E.coli.fasta | wc -l
+            #grep -o 'G' E.coli.fasta | wc -l
+        #Make them as variables
+Num_A=`grep -o 'A' E.coli.fasta | wc -l`
+
+Num_T=`grep -o 'T' E.coli.fasta | wc -l`
+
+Num_C=`grep -o 'C' E.coli.fasta | wc -l`
+
+Num_G=`grep -o 'G' E.coli.fasta | wc -l`
+
+        #Consider there are potential 'Y' and 'R' excist
+Num_Y=`grep -o 'Y' E.coli.fasta | wc -l`
+Num_R=`grep -o 'R' E.coli.fasta | wc -l`
+
+echo 'The number of A is ' $Num_A ', T is ' $Num_T ', C is ' $Num_C ' and C is ' $Num_G ''
+
+Num_AT=$(expr $Num_A + $Num_T) #Sum up the number of A+T and C+G
+Num_CG=$(expr $Num_C + $Num_G)
+echo 'The sum of A+T is ' $Num_AT ' and the sum of C+G is ' $Num_CG ''
+# Ratio=`awk "{print$Num_AT/$Num_CG}"` 
+#as expr / can't calculate to result as a float, to get a exact number of ratio,here I use awk "{print $A/$B}".
+
+#and result is :
+echo 'The ratio of A+T/C+G is :' && echo | awk "{print $Num_AT/$Num_CG}"
+
+
+**********************************************************************
+
+Testing UnixPrac1.txt...
+
+======================================================================
+Inspecting script file FirstBiblio.bib...
+
+File contents are:
+
+**********************************************************************
+
+**********************************************************************
+
+Testing FirstBiblio.bib...
+
+======================================================================
+======================================================================
+Finished running scripts
+
+Ran into 4 errors
+
+======================================================================
+======================================================================
+
+FINISHED WEEKLY ASSESSMENT
+
+Current Points for the Week = 98.5
+
+NOTE THAT THESE ARE POINTS, NOT MARKS FOR THE WEEK!
