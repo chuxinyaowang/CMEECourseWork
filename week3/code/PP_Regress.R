@@ -1,0 +1,418 @@
+#load package
+library(ggplot2)
+library(ggpubr) #FOR PLOT ARRANGEMENT
+
+
+#load the data
+MyDF <- read.csv("../data/EcolArchives-E089-51-D1.csv")
+#make type of feeding interaction and lifstage as factor
+MyDF$Type.of.feeding.interaction <- as.factor(MyDF$Type.of.feeding.interaction)
+MyDF$Predator.lifestage <- as.factor(MyDF$Predator.lifestage)
+#check how many lifestages are,and what are they.
+# unique(MyDF[,7])
+#So there are:
+#'adult','juvenile','larva','larva/juvenule','postlarva/juvenile','postlarva'
+
+
+#Divide dataframe by type of feeding interaction
+t1<- subset(MyDF,Type.of.feeding.interaction== 'planktivorous')
+t2<- subset(MyDF,Type.of.feeding.interaction== 'predacious')
+t3<- subset(MyDF,Type.of.feeding.interaction== 'piscivorous')
+t4<- subset(MyDF,Type.of.feeding.interaction== 'insectivorous')
+t5<- subset(MyDF,Type.of.feeding.interaction== 'predacious/piscivorous')
+
+
+
+p1=ggplot(data = t1, mapping = aes(x = log(t1$Prey.mass), 
+y = log(t1$Predator.mass), 
+colour = t1$Predator.lifestage)) + geom_point() + 
+stat_smooth(method = 'lm',fullrange = TRUE)+ 
+ggtitle("planktivorous") +
+theme(plot.title = element_text(hjust = 0.5))
+
+
+
+
+
+p2=ggplot(data = t2, mapping = aes(x = log(t2$Prey.mass), 
+y = log(t2$Predator.mass), 
+colour = t2$Predator.lifestage)) + geom_point() + 
+stat_smooth(method = 'lm',fullrange = TRUE)+
+ggtitle("predacious") +
+theme(plot.title = element_text(hjust = 0.5))
+
+
+p3=ggplot(data = t3, mapping = aes(x = log(t3$Prey.mass), 
+y = log(t3$Predator.mass), 
+colour = t3$Predator.lifestage)) + geom_point() + 
+stat_smooth(method = 'lm',fullrange = TRUE) +
+ggtitle("piscivorous") +
+theme(plot.title = element_text(hjust = 0.5))
+
+
+p4=ggplot(data = t4, mapping = aes(x = log(t4$Prey.mass), 
+y = log(t4$Predator.mass), 
+colour = t4$Predator.lifestage)) + geom_point() + 
+stat_smooth(method = 'lm',fullrange = TRUE) +
+ggtitle("insectivorous") +
+theme(plot.title = element_text(hjust = 0.5))
+
+
+p5=ggplot(data = t5, mapping = aes(x = log(t5$Prey.mass), 
+y = log(t5$Predator.mass), 
+colour = t5$Predator.lifestage)) + geom_point() + 
+stat_smooth(method = 'lm',fullrange = TRUE) +
+ggtitle("predacious/piscivorous") +
+theme(plot.title = element_text(hjust = 0.5))
+
+pdf("../results/PP_Regress_Subplots.pdf", 11.7, 8.3)
+ggarrange(p1,p2,p3,p4,p5,ncol=1,nrow=5,common.legend=FALSE,legend="bottom")
+graphics.off()
+
+
+#obtain regression results
+
+#obtain lifstages in each tpr of feeding 
+t1l1<- subset(t1,Predator.lifestage== 'adult')
+t1l2<- subset(t1,Predator.lifestage== 'juvenile')
+t1l3<- subset(t1,Predator.lifestage== 'larva')
+t1l4<- subset(t1,Predator.lifestage== 'larva / juvenile')
+t1l6<- subset(t1,Predator.lifestage== 'postlarva/juvenile')
+
+
+t2l1<- subset(t2,Predator.lifestage== 'adult')
+t2l2<- subset(t2,Predator.lifestage== 'juvenile')
+t2l3<- subset(t2,Predator.lifestage== 'larva')
+t2l4<- subset(t2,Predator.lifestage== 'larva / juvenile')
+t2l5<- subset(t2,Predator.lifestage== 'postlarva')
+t2l6<- subset(t2,Predator.lifestage== 'postlarva/juvenile')
+
+
+t3l1<- subset(t3,Predator.lifestage== 'adult')
+t3l2<- subset(t3,Predator.lifestage== 'juvenile')
+t3l4<- subset(t3,Predator.lifestage== 'larva / juvenile')
+t3l5<- subset(t3,Predator.lifestage== 'postlarva')
+t3l6<- subset(t3,Predator.lifestage== 'postlarva/juvenile')
+
+
+
+
+t4l4<- subset(t4,Predator.lifestage== 'larva / juvenile')
+
+
+t5l1<- subset(t5,Predator.lifestage== 'adult')
+
+#do linear regression analysis
+lmt1l1<-lm(t1l1$Predator.mass~t1l1$Prey.mass)
+st1l1<-summary(lmt1l1)
+#obtain results from summary
+#t1l1
+interceptt1l1<-st1l1$coefficients[1,1]
+
+slopet1l1<-st1l1$coefficients[2,1]
+
+Rsquaredt1l1 <- st1l1$r.squared
+
+fvaluet1l1<-st1l1$fstatistic[1]
+
+pvaluet1l1<-round(1-pf(st1l1$fstatistic[1],
+st1l1$fstatistic[2],st1l1$fstatistic[3]),3)
+
+#t1l2
+lmt1l2<-lm(t1l2$Predator.mass~t1l2$Prey.mass)
+st1l2<-summary(lmt1l2)
+
+interceptt1l2<-st1l2$coefficients[1,1]
+
+slopet1l2<-st1l2$coefficients[2,1]
+
+Rsquaredt1l2 <- st1l2$r.squared
+
+fvaluet1l2<-st1l2$fstatistic[1]
+
+pvaluet1l2<-round(1-pf(st1l2$fstatistic[1],
+st1l2$fstatistic[2],st1l2$fstatistic[3]),3)
+
+#t1l3
+lmt1l3<-lm(t1l3$Predator.mass~t1l3$Prey.mass)
+st1l3<-summary(lmt1l3)
+
+interceptt1l3<-st1l3$coefficients[1,1]
+
+slopet1l3<-st1l3$coefficients[2,1]
+
+Rsquaredt1l3 <- st1l3$r.squared
+
+fvaluet1l3<-st1l3$fstatistic[1]
+
+pvaluet1l3<-round(1-pf(st1l3$fstatistic[1],
+st1l3$fstatistic[2],st1l3$fstatistic[3]),3)
+
+#t1l4
+lmt1l4<-lm(t1l4$Predator.mass~t1l4$Prey.mass)
+st1l4<-summary(lmt1l4)
+
+interceptt1l4<-st1l4$coefficients[1,1]
+
+slopet1l4<-st1l4$coefficients[2,1]
+
+Rsquaredt1l4 <- st1l4$r.squared
+
+fvaluet1l4<-st1l4$fstatistic[1]
+
+pvaluet1l4<-round(1-pf(st1l4$fstatistic[1],
+st1l4$fstatistic[2],st1l4$fstatistic[3]),3)
+
+#t1l6
+lmt1l6<-lm(t1l6$Predator.mass~t1l6$Prey.mass)
+st1l6<-summary(lmt1l6)
+
+interceptt1l6<-st1l6$coefficients[1,1]
+
+slopet1l6<-st1l6$coefficients[2,1]
+
+Rsquaredt1l6 <- st1l6$r.squared
+
+fvaluet1l6<-st1l6$fstatistic[1]
+
+pvaluet1l6<-round(1-pf(st1l6$fstatistic[1],
+st1l6$fstatistic[2],st1l6$fstatistic[3]),3)
+
+
+#t2l1
+lmt2l1<-lm(t2l1$Predator.mass~t2l1$Prey.mass)
+st2l1<-summary(lmt2l1)
+
+interceptt2l1<-st2l1$coefficients[1,1]
+
+slopet2l1<-st2l1$coefficients[2,1]
+
+Rsquaredt2l1 <- st2l1$r.squared
+
+fvaluet2l1<-st2l1$fstatistic[1]
+
+pvaluet2l1<-round(1-pf(st2l1$fstatistic[1],
+st2l1$fstatistic[2],st2l1$fstatistic[3]),3)
+
+#t2l2
+lmt2l2<-lm(t2l2$Predator.mass~t2l2$Prey.mass)
+st2l2<-summary(lmt2l2)
+
+interceptt2l2<-st2l2$coefficients[1,1]
+
+slopet2l2<-st2l2$coefficients[2,1]
+
+Rsquaredt2l2 <- st2l2$r.squared
+
+fvaluet2l2<-st2l2$fstatistic[1]
+
+pvaluet2l2<-round(1-pf(st2l2$fstatistic[1],
+st2l2$fstatistic[2],st2l2$fstatistic[3]),3)
+
+#t2l3
+lmt2l3<-lm(t2l3$Predator.mass~t2l3$Prey.mass)
+st2l3<-summary(lmt2l3)
+
+interceptt2l3<-st2l3$coefficients[1,1]
+
+slopet2l3<-st2l3$coefficients[2,1]
+
+Rsquaredt2l3 <- st2l3$r.squared
+
+fvaluet2l3<-st2l3$fstatistic[1]
+
+pvaluet2l3<-round(1-pf(st2l3$fstatistic[1],
+st2l3$fstatistic[2],st2l3$fstatistic[3]),3)
+
+#t2l4
+lmt2l4<-lm(t2l4$Predator.mass~t2l4$Prey.mass)
+st2l4<-summary(lmt2l4)
+
+interceptt2l4<-st2l4$coefficients[1,1]
+
+slopet2l4<-st2l4$coefficients[2,1]
+
+Rsquaredt2l4 <- st2l4$r.squared
+
+fvaluet2l4<-st2l4$fstatistic[1]
+
+pvaluet2l4<-round(1-pf(st2l4$fstatistic[1],
+st2l4$fstatistic[2],st2l4$fstatistic[3]),3)
+
+#t2l5
+lmt2l5<-lm(t2l5$Predator.mass~t2l5$Prey.mass)
+st2l5<-summary(lmt2l5)
+
+interceptt2l5<-st2l5$coefficients[1,1]
+
+slopet2l5<-st2l5$coefficients[2,1]
+
+Rsquaredt2l5 <- st2l5$r.squared
+
+fvaluet2l5<-st2l5$fstatistic[1]
+
+pvaluet2l5<-round(1-pf(st2l5$fstatistic[1],
+st2l5$fstatistic[2],st2l5$fstatistic[3]),3)
+
+
+#t2l6
+lmt2l6<-lm(t2l6$Predator.mass~t2l6$Prey.mass)
+st2l6<-summary(lmt2l6)
+
+interceptt2l6<-st2l6$coefficients[1,1]
+
+slopet2l6<-st2l6$coefficients[2,1]
+
+Rsquaredt2l6 <- st2l6$r.squared
+
+fvaluet2l6<-st2l6$fstatistic[1]
+
+pvaluet2l6<-round(1-pf(st2l6$fstatistic[1],
+st2l6$fstatistic[2],st2l6$fstatistic[3]),3)
+
+#t3l1
+lmt3l1<-lm(t3l1$Predator.mass~t3l1$Prey.mass)
+st3l1<-summary(lmt3l1)
+
+interceptt3l1<-st3l1$coefficients[1,1]
+
+slopet3l1<-st3l1$coefficients[2,1]
+
+Rsquaredt3l1 <- st3l1$r.squared
+
+fvaluet3l1<-st3l1$fstatistic[1]
+
+pvaluet3l1<-round(1-pf(st3l1$fstatistic[1],
+st3l1$fstatistic[2],st3l1$fstatistic[3]),3)
+
+
+#t3l2
+lmt3l2<-lm(t3l2$Predator.mass~t3l2$Prey.mass)
+st3l2<-summary(lmt3l2)
+
+interceptt3l2<-st3l2$coefficients[1,1]
+
+slopet3l2<-st3l2$coefficients[2,1]
+
+Rsquaredt3l2 <- st3l2$r.squared
+
+fvaluet3l2<-st3l2$fstatistic[1]
+
+pvaluet3l2<-round(1-pf(st3l2$fstatistic[1],
+st3l2$fstatistic[2],st3l2$fstatistic[3]),3)
+
+#t3l4
+lmt3l4<-lm(t3l4$Predator.mass~t3l4$Prey.mass)
+st3l4<-summary(lmt3l4)
+
+interceptt3l4<-st3l4$coefficients[1,1]
+
+slopet3l4<-st3l4$coefficients[2,1]
+
+Rsquaredt3l4 <- st3l4$r.squared
+
+fvaluet3l4<-st3l4$fstatistic[1]
+
+pvaluet3l4<-round(1-pf(st3l4$fstatistic[1],
+st3l4$fstatistic[2],st3l4$fstatistic[3]),3)
+
+
+#t3l5
+lmt3l5<-lm(t3l5$Predator.mass~t3l5$Prey.mass)
+st3l5<-summary(lmt3l5)
+
+interceptt3l5<-st3l5$coefficients[1,1]
+
+slopet3l5<-st3l5$coefficients[2,1]
+
+Rsquaredt3l5 <- st3l5$r.squared
+
+fvaluet3l5<-st3l5$fstatistic[1]
+
+pvaluet3l5<-round(1-pf(st3l5$fstatistic[1],
+st3l5$fstatistic[2],st3l5$fstatistic[3]),3)
+
+
+#t3l6
+#due to sample size is 2 in this lifestage,
+#so regression analysis is invalid, I take the vlaue as 'NA'
+interceptt3l6<-NA
+
+slopet3l6<-NA
+
+Rsquaredt3l6 <- NA
+
+fvaluet3l6<-NA
+
+pvaluet3l6<-NA
+
+
+#t4l4
+lmt4l4<-lm(t4l4$Predator.mass~t4l4$Prey.mass)
+st4l4<-summary(lmt4l4)
+
+interceptt4l4<-st4l4$coefficients[1,1]
+
+slopet4l4<-st4l4$coefficients[2,1]
+
+Rsquaredt4l4 <- st4l4$r.squared
+
+fvaluet4l4<-st4l4$fstatistic[1]
+
+pvaluet4l4<-round(1-pf(st4l4$fstatistic[1],
+st4l4$fstatistic[2],st4l4$fstatistic[3]),3)
+
+
+#t5l1
+lmt5l1<-lm(t5l1$Predator.mass~t5l1$Prey.mass)
+st5l1<-summary(lmt5l1)
+
+interceptt5l1<-st5l1$coefficients[1,1]
+
+slopet5l1<-st5l1$coefficients[2,1]
+
+Rsquaredt5l1 <- st5l1$r.squared
+
+fvaluet5l1<-st5l1$fstatistic[1]
+
+pvaluet5l1<-round(1-pf(st5l1$fstatistic[1],
+st5l1$fstatistic[2],st5l1$fstatistic[3]),3)
+
+
+Intercept<-c(interceptt1l1,interceptt1l2,interceptt1l3,interceptt1l4,interceptt1l6,
+interceptt2l1,interceptt2l2,interceptt2l3,interceptt2l4,interceptt2l5,interceptt2l6,
+interceptt3l1,interceptt3l2,interceptt3l4,interceptt2l5,interceptt3l6,
+interceptt4l4,interceptt5l1)
+
+Slope<-c(slopet1l1,slopet1l2,slopet1l3,slopet1l4,slopet1l6,
+slopet2l1,slopet2l2,slopet2l3,slopet2l4,slopet2l5,slopet2l6,
+slopet3l1,slopet3l2,slopet3l4,slopet3l5,slopet3l6,
+slopet4l4,slopet5l1)
+
+Rsquared<-c(Rsquaredt1l1,Rsquaredt1l2,Rsquaredt1l3,Rsquaredt1l4,Rsquaredt1l6,
+Rsquaredt2l1,Rsquaredt2l2,Rsquaredt2l3,Rsquaredt2l4,Rsquaredt2l5,Rsquaredt2l6,
+Rsquaredt3l1,Rsquaredt3l2,Rsquaredt3l4,Rsquaredt3l5,Rsquaredt3l6,
+Rsquaredt4l4,Rsquaredt5l1)
+
+fvalue<-c(fvaluet1l1,fvaluet1l2,fvaluet1l3,fvaluet1l4,fvaluet1l6,
+fvaluet2l1,fvaluet2l2,fvaluet2l3,fvaluet2l4,fvaluet2l5,fvaluet2l6,
+fvaluet3l1,fvaluet3l2,fvaluet3l4,fvaluet3l5,fvaluet3l6,
+fvaluet4l4,fvaluet5l1)
+
+pvalue<-c(pvaluet1l1,pvaluet1l2,pvaluet1l3,pvaluet1l4,pvaluet1l6,
+pvaluet2l1,pvaluet2l2,pvaluet2l3,pvaluet2l4,pvaluet2l5,pvaluet2l6,
+pvaluet3l1,pvaluet3l2,pvaluet3l4,pvaluet3l5,pvaluet3l6,
+pvaluet4l4,pvaluet5l1)
+
+Feeding_type_lifestage<-c("planktivorous adult","planktivorous juvenile",
+"planktivorous larva","planktivorous larva/juvenile",
+"planktivorous postlarva/juvenile",
+"predacious adult","predacious juvenile",
+"predacious larva", "predacious larva/juvenile","predacious postlarva",
+"predacious postlarva/juvenile",
+"piscivorous adult","piscivorous juvenile", "piscivorous larva/juvenile", 
+"piscivorous postlarva","piscivorous postlarva/juvenile",
+"insectivorous larva/juvenile","predacious/piscivorous adult")
+#merge to one data frame
+results<-data.frame(Feeding_type_lifestage,Intercept,Slope,Rsquared,fvalue,pvalue)
+write.csv(results,"../results/PP_Regress_Results.csv",row.names=T)
