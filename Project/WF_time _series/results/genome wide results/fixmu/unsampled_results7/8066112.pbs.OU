@@ -1,0 +1,9114 @@
+Loading matlab/R2021a
+  Loading requirement: fix_unwritable_tmp
+DBG: pwd is : /rds/general/user/jl8722/home/project/code
+DBG: mfile is : /rds/general/user/jl8722/home/project/code/ROC_simulations_unsampled.m: ASCII text
+DBG: matlab is : /apps/MATLAB/R2021a/bin/matlab
+DBG: running matlab.. 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2021 The MathWorks, Inc.
+                  R2021a (9.10.0.1602886) 64-bit (glnxa64)
+                             February 17, 2021
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+      Value    Count   Percent
+  Selection     9494     94.94%
+    Neutral      506      5.06%
+
+initialparams =
+
+     []
+
+Genome nucleotide site: 1
+
+indm =
+
+    82
+
+
+ans =
+
+       241.71
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       240.32
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        10797   -0.0027688        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       241.87
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        10974            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       240.48
+
+Elapsed time is 0.000030 seconds.
+Elapsed time is 0.001215 seconds.
+Genome nucleotide site: 2
+
+indm =
+
+    82
+
+
+ans =
+
+       238.45
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+        237.5
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        11501   -0.0024539        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       238.91
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        11501            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       238.03
+
+Elapsed time is 0.000012 seconds.
+Elapsed time is 0.000047 seconds.
+Genome nucleotide site: 3
+
+indm =
+
+    82
+
+
+ans =
+
+       258.41
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       256.82
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        15519   -0.0021574        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       261.63
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        14618            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       260.43
+
+Elapsed time is 0.000011 seconds.
+Elapsed time is 0.000047 seconds.
+Genome nucleotide site: 4
+
+indm =
+
+    82
+
+
+ans =
+
+       247.21
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+        245.4
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        13647   -0.0035518        1e-05
+
+Max likelhood
+
+lnLopt =
+
+        249.5
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        12921            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+        247.5
+
+Elapsed time is 0.000012 seconds.
+Elapsed time is 0.000046 seconds.
+Genome nucleotide site: 5
+
+indm =
+
+    82
+
+
+ans =
+
+        251.5
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       249.17
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        13953   -0.0034198        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       254.29
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        14039            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+        251.9
+
+Elapsed time is 0.000086 seconds.
+Elapsed time is 0.000175 seconds.
+Genome nucleotide site: 6
+
+indm =
+
+    82
+
+
+ans =
+
+       268.51
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       266.75
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        16031    -0.003696        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       274.01
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        18853            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       272.49
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000027 seconds.
+Genome nucleotide site: 7
+
+indm =
+
+    82
+
+
+ans =
+
+       250.72
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       249.04
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        17519   -0.0028635        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       257.89
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        17457            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       256.31
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000025 seconds.
+Genome nucleotide site: 8
+
+indm =
+
+    82
+
+
+ans =
+
+       258.54
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       256.05
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        18433   -0.0038712        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       266.94
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        18369            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       264.28
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 9
+
+indm =
+
+    82
+
+
+ans =
+
+       249.63
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       248.42
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        18393   -0.0026993        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       259.24
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        18421            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       257.65
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 10
+
+indm =
+
+    82
+
+
+ans =
+
+       250.65
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       249.65
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        15031   -0.0028166        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       254.68
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        15155            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+        253.3
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 11
+
+indm =
+
+    83
+
+
+ans =
+
+       268.91
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       266.94
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        19173   -0.0027707        1e-05
+
+Max likelhood
+
+lnLopt =
+
+        276.6
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        18876            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       274.97
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 12
+
+indm =
+
+    83
+
+
+ans =
+
+       258.19
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       255.76
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        21147    -0.003473        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       263.43
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        21017            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       261.16
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000027 seconds.
+Genome nucleotide site: 13
+
+indm =
+
+    83
+
+
+ans =
+
+        222.5
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       220.98
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        21615   -0.0028981        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       226.12
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        23781            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       224.42
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 14
+
+indm =
+
+    83
+
+
+ans =
+
+       270.33
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       267.05
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        20143   -0.0034446        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       277.21
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        19193            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       274.76
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 15
+
+indm =
+
+    83
+
+
+ans =
+
+        240.2
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       238.92
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        18649   -0.0034157        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       249.31
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        18663            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       246.12
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 16
+
+indm =
+
+    82
+
+
+ans =
+
+       229.12
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       227.54
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        11853   -0.0028314        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       229.92
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        12237            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       228.51
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 17
+
+indm =
+
+    82
+
+
+ans =
+
+       240.74
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       239.73
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        12369   -0.0023315        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       241.81
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        12303            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       240.76
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 18
+
+indm =
+
+    82
+
+
+ans =
+
+       231.89
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+        230.2
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        13052   -0.0032378        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       234.09
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        13967            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       232.47
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 19
+
+indm =
+
+    82
+
+
+ans =
+
+       264.98
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       263.51
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        15893   -0.0023726        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       269.17
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        15285            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       267.95
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 20
+
+indm =
+
+    82
+
+
+ans =
+
+       226.53
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       225.08
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        13119   -0.0021683        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       227.92
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        12875            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       226.69
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 21
+
+indm =
+
+    82
+
+
+ans =
+
+       231.45
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       229.49
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        14467   -0.0021261        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       233.99
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        14891            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       232.84
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 22
+
+indm =
+
+    82
+
+
+ans =
+
+       229.49
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       227.86
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        13595   -0.0023489        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       231.54
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        14145            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       230.23
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 23
+
+indm =
+
+    82
+
+
+ans =
+
+       234.77
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       233.58
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+         9125   -0.0027835        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       235.05
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+       9482.6            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       233.77
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 24
+
+indm =
+
+    82
+
+
+ans =
+
+       233.44
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       231.93
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+       9034.9   -0.0035962        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       233.71
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+       9884.9            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       231.94
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000025 seconds.
+Genome nucleotide site: 25
+
+indm =
+
+    82
+
+
+ans =
+
+       259.04
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       257.41
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        11969   -0.0031083        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       260.03
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        12647            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       258.41
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 26
+
+indm =
+
+    82
+
+
+ans =
+
+       259.61
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       258.17
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        17083   -0.0018528        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       263.46
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        16163            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+        262.7
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 27
+
+indm =
+
+    98
+
+
+ans =
+
+       221.18
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+          220
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+       -0.001
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        18227    -0.002494        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       228.07
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        18936            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       226.08
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000025 seconds.
+Genome nucleotide site: 28
+
+indm =
+
+    97
+
+
+ans =
+
+       227.23
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       226.77
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+       -0.001
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        18571   -0.0015851        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       235.18
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        18611            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       234.45
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000025 seconds.
+Genome nucleotide site: 29
+
+indm =
+
+    83
+
+
+ans =
+
+       256.81
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       252.81
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        25927   -0.0046358        1e-05
+
+Max likelhood
+
+lnLopt =
+
+        259.4
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        21707            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       254.45
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000025 seconds.
+Genome nucleotide site: 30
+
+indm =
+
+    83
+
+
+ans =
+
+       280.88
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       276.97
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        23593   -0.0039163        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       284.11
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        22693            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       281.26
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 31
+
+indm =
+
+    68
+
+
+ans =
+
+       275.92
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       269.99
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+        -0.01
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        24147     -0.00688        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       280.08
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        24143            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       273.73
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 32
+
+indm =
+
+    83
+
+
+ans =
+
+       248.52
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       245.06
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        20097   -0.0030886        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       256.38
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        19508            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       253.84
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 33
+
+indm =
+
+    83
+
+
+ans =
+
+       272.07
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       267.97
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        21149   -0.0052495        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       277.24
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        21937            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       272.38
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 34
+
+indm =
+
+    82
+
+
+ans =
+
+       240.43
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       237.85
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        17439   -0.0036797        1e-05
+
+Max likelhood
+
+lnLopt =
+
+        247.3
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        17624            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       244.95
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000025 seconds.
+Genome nucleotide site: 35
+
+indm =
+
+    83
+
+
+ans =
+
+       283.39
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       279.35
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        20939    -0.005306        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       290.39
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        20085            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       286.13
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 36
+
+indm =
+
+    83
+
+
+ans =
+
+       267.02
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       263.78
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        20389   -0.0042194        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       275.67
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        17793            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       272.04
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 37
+
+indm =
+
+    83
+
+
+ans =
+
+       278.84
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       274.07
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        32737   -0.0054406        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       280.22
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        29998            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       274.44
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000025 seconds.
+Genome nucleotide site: 38
+
+indm =
+
+    83
+
+
+ans =
+
+       247.87
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       244.44
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        25761   -0.0040812        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       249.76
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        25271            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+        245.7
+
+Elapsed time is 0.000005 seconds.
+Elapsed time is 0.000029 seconds.
+Genome nucleotide site: 39
+
+indm =
+
+    83
+
+
+ans =
+
+       280.37
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       277.78
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        18255   -0.0047853        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       288.06
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        19383            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+        285.4
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000025 seconds.
+Genome nucleotide site: 40
+
+indm =
+
+    82
+
+
+ans =
+
+        271.2
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       268.49
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        18267   -0.0046851        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       279.14
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        17855            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       276.24
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 41
+
+indm =
+
+    82
+
+
+ans =
+
+       262.06
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+        259.9
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        15615   -0.0041157        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       267.58
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        15615            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       265.16
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 42
+
+indm =
+
+    82
+
+
+ans =
+
+       269.85
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       267.87
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        16213   -0.0052266        1e-05
+
+Max likelhood
+
+lnLopt =
+
+        277.5
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        16795            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       273.55
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 43
+
+indm =
+
+    82
+
+
+ans =
+
+       237.49
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       236.04
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        14929   -0.0044279        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       244.38
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        17449            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       242.07
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 44
+
+indm =
+
+    82
+
+
+ans =
+
+       222.96
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       221.37
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        17787   -0.0027659        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       230.81
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        16526            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       228.05
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 45
+
+indm =
+
+    82
+
+
+ans =
+
+       260.17
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       259.13
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        14593   -0.0022452        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       263.36
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        13785            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       262.18
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 46
+
+indm =
+
+    82
+
+
+ans =
+
+        244.8
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       242.78
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        14055   -0.0032082        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       247.85
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        14137            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       245.85
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000025 seconds.
+Genome nucleotide site: 47
+
+indm =
+
+    82
+
+
+ans =
+
+       256.32
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       254.53
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        11701   -0.0034317        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       256.92
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        12195            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       255.34
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 48
+
+indm =
+
+    82
+
+
+ans =
+
+       235.34
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       233.17
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        11109   -0.0039054        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       235.87
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        12079            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       233.94
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 49
+
+indm =
+
+    82
+
+
+ans =
+
+       294.32
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       292.63
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        16233   -0.0040596        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       299.85
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        16233            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       297.72
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 50
+
+indm =
+
+    83
+
+
+ans =
+
+       278.61
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       274.71
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        23911   -0.0061789        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       281.99
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        22697            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       276.79
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 51
+
+indm =
+
+    82
+
+
+ans =
+
+       279.03
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       277.41
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        16635   -0.0051926        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       285.86
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        17675            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       283.81
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000025 seconds.
+Genome nucleotide site: 52
+
+indm =
+
+    82
+
+
+ans =
+
+       288.13
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       285.97
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        17879   -0.0042909        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       296.01
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        18391            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       293.46
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 53
+
+indm =
+
+    83
+
+
+ans =
+
+       260.13
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       256.66
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        18825   -0.0052123        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       267.46
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        20620            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       264.52
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 54
+
+indm =
+
+    82
+
+
+ans =
+
+       249.93
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       247.58
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        14894   -0.0052808        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       255.19
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        15089            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       252.31
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 55
+
+indm =
+
+    82
+
+
+ans =
+
+       268.01
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       266.01
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        14485   -0.0042864        1e-05
+
+Max likelhood
+
+lnLopt =
+
+        272.1
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        14635            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       269.31
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 56
+
+indm =
+
+    83
+
+
+ans =
+
+       280.01
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       276.84
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        20303   -0.0038729        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       286.54
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        19677            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+        283.9
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 57
+
+indm =
+
+    82
+
+
+ans =
+
+       252.54
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       250.94
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        17939   -0.0028966        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       260.55
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        16619            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       258.54
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 58
+
+indm =
+
+    82
+
+
+ans =
+
+       232.49
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       230.91
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        17045   -0.0024691        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       238.73
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        16399            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       237.05
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 59
+
+indm =
+
+    82
+
+
+ans =
+
+        234.1
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+        232.4
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        12199   -0.0032992        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       236.03
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        12885            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       234.03
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 60
+
+indm =
+
+    82
+
+
+ans =
+
+       216.86
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       215.17
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        14543   -0.0024817        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       220.57
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        14303            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       218.83
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 61
+
+indm =
+
+    82
+
+
+ans =
+
+       262.42
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       260.87
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        14364   -0.0034564        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       265.81
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        13093            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       263.03
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 62
+
+indm =
+
+    82
+
+
+ans =
+
+       262.45
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       260.74
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        14515   -0.0021339        1e-05
+
+Max likelhood
+
+lnLopt =
+
+        264.8
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        14135            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       263.68
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 63
+
+indm =
+
+    82
+
+
+ans =
+
+       231.76
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       230.04
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        12747   -0.0023989        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       233.09
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        12633            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       231.41
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 64
+
+indm =
+
+    97
+
+
+ans =
+
+       221.35
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       220.74
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+       -0.001
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+         9059   -0.0013889        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       222.13
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+       8780.9            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       221.35
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 65
+
+indm =
+
+    82
+
+
+ans =
+
+       214.46
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       213.58
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        10898   -0.0021538        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       214.77
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        10031            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       213.62
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 66
+
+indm =
+
+    82
+
+
+ans =
+
+       236.68
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       235.83
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+         9701   -0.0020849        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       236.87
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        10021            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       235.84
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 67
+
+indm =
+
+    82
+
+
+ans =
+
+       227.09
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       225.73
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+         9393   -0.0024273        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       227.32
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+         9393            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       225.76
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 68
+
+indm =
+
+    82
+
+
+ans =
+
+       240.11
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+        238.3
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+         9267   -0.0030216        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       240.26
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+       9315.3            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+        238.4
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 69
+
+indm =
+
+    97
+
+
+ans =
+
+       220.55
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       219.96
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+       -0.001
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+         8749   -0.0015787        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       221.46
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+       8382.8            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       220.61
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000027 seconds.
+Genome nucleotide site: 70
+
+indm =
+
+    82
+
+
+ans =
+
+       217.41
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       216.24
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        10825   -0.0022052        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       217.75
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        10661            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       216.42
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 71
+
+indm =
+
+    82
+
+
+ans =
+
+       250.21
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       249.41
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+         9489   -0.0023316        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       250.39
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+       9488.8            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       249.46
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000022 seconds.
+Genome nucleotide site: 72
+
+indm =
+
+    97
+
+
+ans =
+
+       223.89
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       222.96
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+       -0.001
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        11049   -0.0022233        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       224.62
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        11351            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       223.33
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 73
+
+indm =
+
+    82
+
+
+ans =
+
+       239.38
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       238.09
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        11857   -0.0025747        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       239.99
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        11251            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       238.35
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 74
+
+indm =
+
+    82
+
+
+ans =
+
+       252.84
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+        251.9
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        11859   -0.0022419        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       253.58
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        11795            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       252.54
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 75
+
+indm =
+
+    82
+
+
+ans =
+
+       218.39
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       215.91
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        13383   -0.0028934        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       220.67
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        13371            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       218.08
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 76
+
+indm =
+
+    82
+
+
+ans =
+
+       239.93
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       237.85
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        15263   -0.0028391        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       244.19
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        14233            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       242.26
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000025 seconds.
+Genome nucleotide site: 77
+
+indm =
+
+    82
+
+
+ans =
+
+       273.27
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       271.91
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        13019   -0.0028838        1e-05
+
+Max likelhood
+
+lnLopt =
+
+          275
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        12699            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       273.29
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 78
+
+indm =
+
+    82
+
+
+ans =
+
+       270.82
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       269.12
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        13453   -0.0037196        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       273.43
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        13623            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       271.42
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 79
+
+indm =
+
+    82
+
+
+ans =
+
+       288.94
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       286.87
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        16469   -0.0044385        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       295.17
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        16271            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       292.93
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 80
+
+indm =
+
+    82
+
+
+ans =
+
+       265.51
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       264.04
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        15383    -0.003938        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       270.38
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        15414            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       267.99
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 81
+
+indm =
+
+    82
+
+
+ans =
+
+       275.38
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       273.46
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        15573   -0.0035131        1e-05
+
+Max likelhood
+
+lnLopt =
+
+        280.3
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        14685            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       277.68
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 82
+
+indm =
+
+    82
+
+
+ans =
+
+       235.31
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       233.19
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        14893   -0.0032574        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       238.74
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        14996            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       237.06
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 83
+
+indm =
+
+    82
+
+
+ans =
+
+       254.29
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+          252
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        15291   -0.0039391        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       258.81
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        14643            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       256.38
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 84
+
+indm =
+
+    82
+
+
+ans =
+
+       219.51
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       217.26
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        11989   -0.0035004        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       220.72
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        12089            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       218.34
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 85
+
+indm =
+
+    82
+
+
+ans =
+
+       250.85
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       248.55
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        12839    -0.004308        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       253.33
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        13535            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       250.96
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 86
+
+indm =
+
+    82
+
+
+ans =
+
+       281.02
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       279.32
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        19163   -0.0023509        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       286.74
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        17913            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       285.66
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 87
+
+indm =
+
+    82
+
+
+ans =
+
+       293.33
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       291.61
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        15373   -0.0041494        1e-05
+
+Max likelhood
+
+lnLopt =
+
+        297.7
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        14645            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       295.71
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 88
+
+indm =
+
+    82
+
+
+ans =
+
+       232.62
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       230.92
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        15337   -0.0034956        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       239.41
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        15575            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       236.62
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 89
+
+indm =
+
+    82
+
+
+ans =
+
+       225.13
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       221.76
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        14379   -0.0038512        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       228.62
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        14641            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       225.87
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 90
+
+indm =
+
+    82
+
+
+ans =
+
+       230.87
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       228.81
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        11153   -0.0029702        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       231.14
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        11295            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+        229.2
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000025 seconds.
+Genome nucleotide site: 91
+
+indm =
+
+    97
+
+
+ans =
+
+        250.7
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       250.13
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+       -0.001
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+         9785   -0.0013333        1e-05
+
+Max likelhood
+
+lnLopt =
+
+        250.8
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+         9405            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       250.23
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 92
+
+indm =
+
+    82
+
+
+ans =
+
+       219.42
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       218.31
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        11361   -0.0021206        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       219.96
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        11820            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       218.86
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 93
+
+indm =
+
+    82
+
+
+ans =
+
+       250.09
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       248.64
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+         9459     -0.00312        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       250.13
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        10015            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       248.64
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 94
+
+indm =
+
+    82
+
+
+ans =
+
+       242.95
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       240.59
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        10438   -0.0031068        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       243.14
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        10439            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       240.69
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 95
+
+indm =
+
+    83
+
+
+ans =
+
+       307.19
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       302.49
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        25445   -0.0062776        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       309.77
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        25228            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       304.76
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000022 seconds.
+Genome nucleotide site: 96
+
+indm =
+
+    83
+
+
+ans =
+
+       274.61
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       270.95
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        21957   -0.0042307        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       279.51
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        21360            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       276.35
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 97
+
+indm =
+
+    83
+
+
+ans =
+
+       249.81
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       246.88
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        20063   -0.0038078        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       255.52
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        19421            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       252.71
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 98
+
+indm =
+
+    83
+
+
+ans =
+
+       279.12
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       275.91
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        21875    -0.003385        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       284.04
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        19497            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       281.35
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 99
+
+indm =
+
+    68
+
+
+ans =
+
+       292.86
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       287.32
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+        -0.01
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        23455   -0.0077638        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       296.45
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        22925            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       290.22
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 100
+
+indm =
+
+    83
+
+
+ans =
+
+       279.55
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       274.43
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        26015   -0.0059214        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       282.54
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        23785            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       276.35
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 101
+
+indm =
+
+    83
+
+
+ans =
+
+       273.18
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       268.36
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        21777   -0.0066649        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       278.21
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        19963            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       272.53
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 102
+
+indm =
+
+    82
+
+
+ans =
+
+       245.58
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       242.73
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        15759   -0.0053294        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       252.73
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        16596            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       248.07
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000025 seconds.
+Genome nucleotide site: 103
+
+indm =
+
+    83
+
+
+ans =
+
+       271.45
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       268.07
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        20119   -0.0046704        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       277.23
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        20119            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       274.09
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 104
+
+indm =
+
+    68
+
+
+ans =
+
+       331.92
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       324.26
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+        -0.01
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        24999   -0.0081269        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       334.03
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        22933            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+          328
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 105
+
+indm =
+
+    68
+
+
+ans =
+
+       292.98
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       288.45
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+        -0.01
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        24087   -0.0068125        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       297.22
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        22935            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       291.51
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 106
+
+indm =
+
+    83
+
+
+ans =
+
+       300.88
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       297.08
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        21199   -0.0061211        1e-05
+
+Max likelhood
+
+lnLopt =
+
+        305.1
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        22453            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       301.43
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 107
+
+indm =
+
+    68
+
+
+ans =
+
+       314.15
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       307.32
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+        -0.01
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        25919   -0.0097342        1e-05
+
+Max likelhood
+
+lnLopt =
+
+        315.4
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        26735            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       308.39
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 108
+
+indm =
+
+    83
+
+
+ans =
+
+       286.42
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       282.82
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        19497   -0.0058402        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       292.46
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        20551            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       288.95
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000029 seconds.
+Genome nucleotide site: 109
+
+indm =
+
+    82
+
+
+ans =
+
+       258.43
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       256.57
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        16428   -0.0038232        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       266.04
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        16591            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       263.01
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 110
+
+indm =
+
+    82
+
+
+ans =
+
+       250.52
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       248.86
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        13009   -0.0026552        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       252.29
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        13137            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       250.85
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 111
+
+indm =
+
+    82
+
+
+ans =
+
+        248.6
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       247.02
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        18015   -0.0022045        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       256.39
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        17807            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       255.11
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 112
+
+indm =
+
+    82
+
+
+ans =
+
+       270.85
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       269.11
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        18107    -0.002834        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       278.52
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        17297            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       276.19
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 113
+
+indm =
+
+    83
+
+
+ans =
+
+       258.35
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       254.51
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        22333   -0.0043243        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       263.15
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        20617            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+        259.5
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 114
+
+indm =
+
+    83
+
+
+ans =
+
+       267.07
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       263.26
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        20303   -0.0044439        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       274.72
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        18471            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       271.28
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000025 seconds.
+Genome nucleotide site: 115
+
+indm =
+
+    83
+
+
+ans =
+
+       258.98
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       255.49
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        23684    -0.004019        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       261.84
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        22191            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       258.51
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000025 seconds.
+Genome nucleotide site: 116
+
+indm =
+
+    83
+
+
+ans =
+
+       278.61
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       274.57
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        20271   -0.0055691        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       286.36
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        19867            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       282.43
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 117
+
+indm =
+
+    82
+
+
+ans =
+
+        254.7
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       253.11
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        17535   -0.0044028        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       263.31
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        18370            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       260.69
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 118
+
+indm =
+
+    82
+
+
+ans =
+
+       246.95
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       245.16
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        16793   -0.0039678        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       253.73
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        16303            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       250.87
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 119
+
+indm =
+
+    82
+
+
+ans =
+
+        297.5
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       295.66
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        15941   -0.0037214        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       302.09
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        16159            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       300.38
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 120
+
+indm =
+
+    83
+
+
+ans =
+
+       265.62
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       261.97
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        19135   -0.0052876        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       272.83
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        19193            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       268.72
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 121
+
+indm =
+
+    83
+
+
+ans =
+
+       286.47
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       283.44
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        20117   -0.0039271        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       293.17
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        19091            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       290.67
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 122
+
+indm =
+
+    83
+
+
+ans =
+
+       284.36
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       280.52
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        25273   -0.0044169        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       286.71
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        24125            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+        282.8
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 123
+
+indm =
+
+    83
+
+
+ans =
+
+        243.9
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       242.12
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        22473   -0.0023795        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       248.63
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        20824            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       246.78
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 124
+
+indm =
+
+    83
+
+
+ans =
+
+       234.07
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       230.67
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        23619   -0.0040079        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       235.66
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        27028            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       231.95
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 125
+
+indm =
+
+    83
+
+
+ans =
+
+       278.37
+
+
+indm0 =
+
+   233
+
+
+ans =
+
+       274.96
+
+Optimum parameters after coarse grid search
+
+ans =
+
+        31623
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        19063   -0.0050624        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       285.48
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        19437            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       282.32
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 126
+
+indm =
+
+    82
+
+
+ans =
+
+       245.42
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       243.45
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        14927   -0.0031527        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       249.05
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        14943            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       247.39
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 127
+
+indm =
+
+    82
+
+
+ans =
+
+       221.94
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       220.33
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        13477   -0.0032788        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       225.23
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        13397            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       222.51
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 128
+
+indm =
+
+    82
+
+
+ans =
+
+       216.32
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       214.88
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        10221   -0.0024108        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       216.54
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        10020            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+        214.9
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 129
+
+indm =
+
+    82
+
+
+ans =
+
+       231.21
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       229.66
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        12767   -0.0025452        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       232.85
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        12199            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       231.09
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 130
+
+indm =
+
+    82
+
+
+ans =
+
+       257.45
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       255.41
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        18189   -0.0026623        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       264.42
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        18190            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+        262.8
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 131
+
+indm =
+
+    82
+
+
+ans =
+
+       241.83
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       239.91
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        14611   -0.0032833        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       246.07
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        13635            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       243.17
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 132
+
+indm =
+
+    82
+
+
+ans =
+
+       266.22
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       264.95
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        11675   -0.0028139        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       266.88
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        10907            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       265.46
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 133
+
+indm =
+
+    82
+
+
+ans =
+
+       245.26
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       242.21
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        16617   -0.0045354        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       252.62
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        17357            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+        249.2
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 134
+
+indm =
+
+    82
+
+
+ans =
+
+       245.13
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       243.95
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        17639   -0.0025974        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       252.63
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        17621            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       251.58
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 135
+
+indm =
+
+    82
+
+
+ans =
+
+       238.83
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       237.95
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        14021   -0.0020161        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       241.25
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        14531            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       240.28
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 136
+
+indm =
+
+    82
+
+
+ans =
+
+       227.37
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       226.25
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        14163   -0.0016616        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       230.15
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        14047            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+        229.3
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 137
+
+indm =
+
+    97
+
+
+ans =
+
+       238.83
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       238.41
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+       -0.001
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        10911   -0.0012429        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       239.05
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        10913            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       238.63
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 138
+
+indm =
+
+    82
+
+
+ans =
+
+       176.02
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+          175
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+        10629   -0.0021801        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       176.46
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+        12516            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       175.58
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 139
+
+indm =
+
+    97
+
+
+ans =
+
+       228.48
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       227.81
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+       -0.001
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+         7859   -0.0024684        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       229.89
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+       8458.8            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       228.91
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 140
+
+indm =
+
+    97
+
+
+ans =
+
+       227.77
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       227.04
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+       -0.001
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+         6613   -0.0020288        1e-05
+
+Max likelhood
+
+lnLopt =
+
+        233.2
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+       6583.6            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       232.26
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000024 seconds.
+Genome nucleotide site: 141
+
+indm =
+
+    82
+
+
+ans =
+
+       208.34
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+       207.22
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+   -0.0031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+       7310.9   -0.0016457        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       212.06
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+         7325            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       211.47
+
+Elapsed time is 0.000001 seconds.
+Elapsed time is 0.000023 seconds.
+Genome nucleotide site: 142
+
+indm =
+
+   112
+
+
+ans =
+
+       207.05
+
+
+indm0 =
+
+   232
+
+
+ans =
+
+          207
+
+Optimum parameters after coarse grid search
+
+ans =
+
+       10000
+
+
+ans =
+
+  -0.00031623
+
+
+ans =
+
+        1e-05
+
+Nelder-Mead Simplex
+Optimum parameters [N,s,μ]
+
+ans =
+
+         6643  -1.0541e-05        1e-05
+
+Max likelhood
+
+lnLopt =
+
+       214.05
+
+Optimum parameters for null model [N,s,μ]
+
+ans =
+
+         6647            0        1e-05
+
+Max likelhood of null model
+
+lnLopt0 =
+
+       214.06
+
+Elapsed time is 0.000002 seconds.
+Elapsed time is 0.000025 seconds.
+Genome nucleotide site: 143
+matlab run OK
